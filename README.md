@@ -4,7 +4,7 @@
 
 [[译] 浏览器内部揭秘(2)](https://github.com/ZYuMing/Blog/issues/14)
 
-[浏览器存储](https://github.com/ZYuMing/Blog/issues/9)
+[浏览器存储(sessionStorage, localStorage, cookie)](https://github.com/ZYuMing/Blog/issues/9)
 
 ## HTTP
 [HTTP1.0，HTTP1.1，HTTPS和HTTP2.0的区别](https://github.com/ZYuMing/Blog/issues/8)
