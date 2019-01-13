@@ -31,8 +31,6 @@
 ## LINUX
 [centOS7.0 搭建FTP服务器](https://github.com/ZYuMing/Blog/issues/1)
 
-[TCP之拆包分包](https://github.com/ZYuMing/Blog/issues/15)
-
 ## PYTHON
 
 ## 大数据
