@@ -18,7 +18,7 @@
 
 [JS创建对象模式](https://github.com/ZYuMing/Blog/issues/3)
 
-[JS实现继承的方法](https://github.com/ZYuMing/Blog/issues/7)
+[JS继承模式](https://github.com/ZYuMing/Blog/issues/7)
 
 [ES6：export default 和 export 区别](https://github.com/ZYuMing/Blog/issues/6)
 
