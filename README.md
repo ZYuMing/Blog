@@ -31,5 +31,7 @@
 ## LINUX
 [centOS7.0 搭建FTP服务器](https://github.com/ZYuMing/Blog/issues/1)
 
+## PYTHON
+
 ## 大数据
 [Druid - 海量数据实时OLAP分析系统](https://github.com/ZYuMing/Blog/issues/10)
