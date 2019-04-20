@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>圣杯布局进阶版</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body{
+            width: 100%;
+            height: 100%;
+            min-width: 1200px;
+        }
+        .text{
+            text-align: center;
+            font-size: 18px;
+            line-height: 70px;
+            font-weight: bold;
+        }
+        .layout{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .header{
+            flex: 0 0 70px;
+            background: #F39322;
+        }
+        .main{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+        }
+        .center{
+            flex: 1;
+            background: #BCE5E5;
+            display: flex;
+        }
+        .left{
+            flex: 0 0 250px;
+            background: #02A899;
+        }
+        .content{
+            flex: 1;
+            background: #FEE064;
+            overflow: hidden;
+        }
+        .right{
+            flex: 0 0 250px;
+            background: #02A899;
+        }
+        .bottom{
+            flex: 0 0 70px;
+            background: #C7262F;
+        }
+        .page{
+            width: 100%;
+            height: 850px;
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <div class="header text">这里是顶部栏</div>
+    <div class="main">
+        <div class="center">
+            <div class="left text">这里是左侧栏</div>
+            <div class="content text">
+                <div class="page text">
+                    内容模块的宽度需要自适应，需要自动铺满。当顶部栏高度+内容模块高度+底部栏高度小于浏览器高度时，自动铺满。当顶部栏高度+内容模块高度+底部栏高度大于浏览器高度时，顶部栏一直处于浏览器顶端。内容模块跟底部栏处出现滚动条
+                </div>
+            </div>
+            <div class="right text">这里是右侧栏</div>
+        </div>
+        <div class="bottom text">这里是底部栏</div>
+    </div>
+</div>
+</body>
+</html>
